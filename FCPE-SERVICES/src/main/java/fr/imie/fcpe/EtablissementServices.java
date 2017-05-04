@@ -20,7 +20,7 @@ public class EtablissementServices {
 //        @SuppressWarnings("unchecked")
 //        EtablissementEntity etab = (EtablissementEntity) em.createNativeQuery("SELECT id FROM etablissement WHERE id = 1").getSingleResult();
 
-        em.createNativeQuery("INSERT INTO etablissement (id) VALUES (1)").executeUpdate();
+//        em.createNativeQuery("INSERT INTO etablissement (id) VALUES (5)").executeUpdate();
 
         @SuppressWarnings("unchecked")
         List<EtablissementEntity> data1 = em.createNamedQuery("EtablissementEntity.findAll").getResultList();

@@ -18,11 +18,22 @@
             <groupId>fr.imie.fcpe</groupId>
             <artifactId>FCPE-PERSIST</artifactId>
         </dependency>
+        
         <dependency>
+			<groupId>javax.ejb</groupId>
+			<artifactId>ejb-api</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>javax.persistence</groupId>
+			<artifactId>persistence-api</artifactId>
+		</dependency>
+        
+<!--         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
             <scope>provided</scope>
-        </dependency>
+        </dependency> -->
     </dependencies>
 
 </project>
