@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Class-Path: javax.mail-1.5.0.jar org.eclipse.persistence.asm-2.6.4.jar
+  activation-1.1.jar postgresql-9.4.1212.jar javaee-api-7.0.jar javax.
+ json-1.0.4.jar org.eclipse.persistence.jpa-2.6.4.jar javax.persistenc
+ e-2.1.1.jar org.eclipse.persistence.antlr-2.6.4.jar org.eclipse.persi
+ stence.jpa.jpql-2.6.4.jar org.eclipse.persistence.core-2.6.4.jar
+
